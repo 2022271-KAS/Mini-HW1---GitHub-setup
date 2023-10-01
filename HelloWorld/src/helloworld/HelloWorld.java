@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class HelloWorld {
 
     public static void main(String[] args) {
+        
+        try{
         //first line and commit.
         System.out.println("Hello World!");
         
@@ -29,5 +31,9 @@ public class HelloWorld {
             System.out.println("Are you mad?!");
         }
     }
+    //Added a try/catch to avoid the code from breaking. Last commit.
+    }catch(Exception e){
+            System.out.println("Are you extra mad?!");
+        }
     
 }
