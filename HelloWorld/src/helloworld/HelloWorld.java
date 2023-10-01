@@ -17,6 +17,17 @@ public class HelloWorld {
         System.out.println("Press 2 to say: Goodbye.");
         
         int answer = myKB.nextInt();
+
+        //Added conditions depending on user's input, third commit.
+        if(answer == 1){
+            System.out.println("Hello :)");
+        }
+        else if (answer == 2){
+            System.out.println("Goodbye :(");
+        }
+        else {
+            System.out.println("Are you mad?!");
+        }
     }
     
 }
